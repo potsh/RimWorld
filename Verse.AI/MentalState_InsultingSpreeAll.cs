@@ -1,0 +1,72 @@
+using System.Collections.Generic;
+using System.Linq;
+using UnityEngine;
+
+namespace Verse.AI
+{
+	public class MentalState_InsultingSpreeAll : MentalState_InsultingSpree
+	{
+		private int targetFoundTicks;
+
+		private const int CheckChooseNewTargetIntervalTicks = 250;
+
+		private const int MaxSameTargetChaseTicks = 1250;
+
+		private static List<Pawn> candidates = new List<Pawn>();
+
+		public override void ExposeData()
+		{
+			base.ExposeData();
+			Scribe_Values.Look(ref targetFoundTicks, "targetFoundTicks", 0);
+		}
+
+		public override void PostStart(string reason)
+		{
+			base.PostStart(reason);
+			ChooseNextTarget();
+		}
+
+		public override void MentalStateTick()
+		{
+			if (target != null && !InsultingSpreeMentalStateUtility.CanChaseAndInsult(pawn, target))
+			{
+				ChooseNextTarget();
+			}
+			if (pawn.IsHashIntervalTick(250) && (target == null || insultedTargetAtLeastOnce))
+			{
+				ChooseNextTarget();
+			}
+			base.MentalStateTick();
+		}
+
+		private void ChooseNextTarget()
+		{
+			InsultingSpreeMentalStateUtility.GetInsultCandidatesFor(base.pawn, candidates);
+			if (!candidates.Any())
+			{
+				target = null;
+				insultedTargetAtLeastOnce = false;
+				targetFoundTicks = -1;
+			}
+			else
+			{
+				Pawn pawn = (target == null || Find.TickManager.TicksGame - targetFoundTicks <= 1250 || !candidates.Any((Pawn x) => x != target)) ? candidates.RandomElementByWeight((Pawn x) => GetCandidateWeight(x)) : (from x in candidates
+				where x != target
+				select x).RandomElementByWeight((Pawn x) => GetCandidateWeight(x));
+				if (pawn != target)
+				{
+					target = pawn;
+					insultedTargetAtLeastOnce = false;
+					targetFoundTicks = Find.TickManager.TicksGame;
+				}
+			}
+		}
+
+		private float GetCandidateWeight(Pawn candidate)
+		{
+			float num = pawn.Position.DistanceTo(candidate.Position);
+			float num2 = Mathf.Min(num / 40f, 1f);
+			return 1f - num2 + 0.01f;
+		}
+	}
+}

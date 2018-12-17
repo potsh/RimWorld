@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="Verse.BodyPartRecord" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAQAAAEAECAAEAREAAgAgAAwAcAAAACIAEkBIAAAEAA=</HashCode>
+      <FileName>Verse\BodyPartRecord.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="body" />
+      <Field Name="parent" />
+      <Field Name="def" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="groups" />
+      <Field Name="parts" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="System.Object" Collapsed="true">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Verse.BodyDef" Collapsed="true">
+    <Position X="1" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAEAEAAAAAAAAIBEAAAAJAAAAAkAAAAIACAEA=</HashCode>
+      <FileName>Verse\BodyDef.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="corePart" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="cachedAllParts" />
+      <Field Name="cachedPartsVulnerableToFrostbite" />
+      <Property Name="AllParts" />
+      <Property Name="AllPartsVulnerableToFrostbite" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Verse.Def" Collapsed="true">
+    <Position X="7.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgBAABBAEKAAAAABAAgIAwIKIQBAAAACBAAA=</HashCode>
+      <FileName>Verse\Def.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Verse.BodyPartGroupDef">
+    <Position X="7.75" Y="5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAwAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Verse\BodyPartGroupDef.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Verse.BodyPartDef" Collapsed="true">
+    <Position X="5.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACQABAAAIIAAAAAGAAAAGwBQ4CQgIARBBABCAAEAA=</HashCode>
+      <FileName>Verse\BodyPartDef.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="tags" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Verse.BodyPartTagDef">
+    <Position X="10" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Verse\BodyPartTagDef.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RimWorld.BodyPartDefOf" Collapsed="true">
+    <Position X="5.5" Y="7" Width="1.5" />
+    <Members>
+      <Field Name="Arm" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAkAACAICJAAAAABAAAAAABAAIAAIAAAAAQAACA=</HashCode>
+      <FileName>RimWorld\BodyPartDefOf.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="Arm" />
+      <Field Name="Body" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="RimWorld.BodyPartTagDefOf" Collapsed="true">
+    <Position X="10" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAlIAABAgCAAAAFEAAAgAQAkUEAAAIAIEAAAIE=</HashCode>
+      <FileName>RimWorld\BodyPartTagDefOf.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="BloodFiltrationKidney" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Verse.DamageDef" Collapsed="true">
+    <Position X="12.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QBCQABAAEQCDQMIgIACAYkg4CSIACIBAJgIgQIBQCII=</HashCode>
+      <FileName>Verse\DamageDef.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="hediff" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Verse.HediffDef" Collapsed="true">
+    <Position X="14.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AGAQAAXAgBAJKBAAASgAQBAAQIeAiCAAQUAEAQAAoAA=</HashCode>
+      <FileName>Verse\HediffDef.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Verse.PawnCapacityDef" Collapsed="true">
+    <Position X="3.25" Y="5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAABBAAAIAQIAAAAgAIAAAQgCAAAIAAABAggJAAAAA=</HashCode>
+      <FileName>Verse\PawnCapacityDef.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="workerInt" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Verse.PawnCapacityWorker" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAAAABAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Verse\PawnCapacityWorker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="Verse.DamageInfo" Collapsed="true">
+    <Position X="5.5" Y="3" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="Verse.DamageInfo.SourceCategory" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Verse\DamageInfo.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AACEECWQBAhAgACEAAEABACAACAAAA0hAcQggoGACCo=</HashCode>
+      <FileName>Verse\DamageInfo.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="hitPartInt" />
+      <Field Name="weaponBodyPartGroupInt" />
+      <Field Name="defInt" />
+    </ShowAsAssociation>
+  </Struct>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>

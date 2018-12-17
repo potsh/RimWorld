@@ -1,0 +1,41 @@
+using System.Collections.Generic;
+using UnityEngine;
+using Verse;
+
+namespace RimWorld
+{
+	public class CompProperties_OrbitalBeam : CompProperties
+	{
+		public float width = 8f;
+
+		public Color color = Color.white;
+
+		public SoundDef sound;
+
+		public CompProperties_OrbitalBeam()
+		{
+			compClass = typeof(CompOrbitalBeam);
+		}
+
+		public override IEnumerable<string> ConfigErrors(ThingDef parentDef)
+		{
+			using (IEnumerator<string> enumerator = base.ConfigErrors(parentDef).GetEnumerator())
+			{
+				if (enumerator.MoveNext())
+				{
+					string err = enumerator.Current;
+					yield return err;
+					/*Error: Unable to find new state assignment for yield return*/;
+				}
+			}
+			if (parentDef.drawerType != DrawerType.RealtimeOnly && parentDef.drawerType != DrawerType.MapMeshAndRealTime)
+			{
+				yield return "orbital beam requires realtime drawer";
+				/*Error: Unable to find new state assignment for yield return*/;
+			}
+			yield break;
+			IL_0104:
+			/*Error near IL_0105: Unexpected return in MoveNext()*/;
+		}
+	}
+}

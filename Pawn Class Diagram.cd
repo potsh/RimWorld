@@ -11,7 +11,7 @@
     </ShowAsAssociation>
     <Lollipop Position="0.2" Collapsed="true" />
   </Class>
-  <Class Name="Verse.Pawn_HealthTracker" Collapsed="true">
+  <Class Name="Verse.Pawn_HealthTracker">
     <Position X="3.5" Y="4" Width="1.5" />
     <TypeIdentifier>
       <HashCode>QQgRQAHEAAQABACAEJGEQABAMAACAAJAQgIoDiAACCQ=</HashCode>

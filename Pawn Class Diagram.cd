@@ -114,8 +114,8 @@
       <FileName>Verse\BodyPartGroupDef.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="RimWorld.PawnCapacityDefOf" Collapsed="true">
-    <Position X="5" Y="12" Width="2.5" />
+  <Class Name="RimWorld.PawnCapacityDefOf">
+    <Position X="5" Y="11.75" Width="2.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAJAABAAAAAAgQAAAEQAAAgCAAYAA=</HashCode>
       <FileName>RimWorld\PawnCapacityDefOf.cs</FileName>

@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="RimWorld.DamageDefOf" Collapsed="true">
+    <Position X="25.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AARAQAAAAQCAAIAAQAFAAAAkQACAEIggAAgAAAQYAEA=</HashCode>
+      <FileName>RimWorld\DamageDefOf.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RimWorld.DamageWatcher" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAUAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RimWorld\DamageWatcher.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Object" Collapsed="true">
+    <Position X="10.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="RimWorld.DamageArmorCategoryDefOf" Collapsed="true">
+    <Position X="23.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RimWorld\DamageArmorCategoryDefOf.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Verse.DamageArmorCategoryDef" Collapsed="true">
+    <Position X="12" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Verse\DamageArmorCategoryDef.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Verse.DamageDef" Collapsed="true">
+    <Position X="12.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QBCQABAAEQCDQMIgIACAYkg4CSIACIBAJgIgQIBQCII=</HashCode>
+      <FileName>Verse\DamageDef.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="armorCategory" />
+      <Field Name="workerInt" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="additionalHediffs" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Verse.DamagedMatPool" Collapsed="true">
+    <Position X="23.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Verse\DamagedMatPool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Verse.DamageMultiplier" Collapsed="true">
+    <Position X="18.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Verse\DamageMultiplier.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Verse.DamageTuning" Collapsed="true">
+    <Position X="25.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Verse\DamageTuning.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Verse.DamageWorker" Collapsed="true">
+    <Position X="8" Y="3.5" Width="1.5" />
+    <NestedTypes>
+      <Class Name="Verse.DamageWorker.DamageResult" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Verse\DamageWorker.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAgAEAABAGAAAgACAAgAAAAAAAAEAAAAAAQAIAIAA=</HashCode>
+      <FileName>Verse\DamageWorker.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="def" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Verse.DamageWorker_AddInjury" Collapsed="true">
+    <Position X="9" Y="4.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAgABAAAgAAAAAAAAgAAEAAAAAAUAA6AAAEAAA=</HashCode>
+      <FileName>Verse\DamageWorker_AddInjury.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Verse.DamageWorker_AddGlobal">
+    <Position X="2.75" Y="4.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Verse\DamageWorker_AddGlobal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Verse.DamageWorker_Bite" Collapsed="true">
+    <Position X="10.25" Y="6.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Verse\DamageWorker_Bite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Verse.DamageWorker_Blunt" Collapsed="true">
+    <Position X="12.75" Y="6.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAAgAAAEAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Verse\DamageWorker_Blunt.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Verse.DamageWorker_Cut" Collapsed="true">
+    <Position X="5.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Verse\DamageWorker_Cut.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Verse.DamageWorker_Stab" Collapsed="true">
+    <Position X="8" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAggAAAAAAAAAAAAAAAAEAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Verse\DamageWorker_Stab.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Verse.DamageDefAdditionalHediff" Collapsed="true">
+    <Position X="15.5" Y="3.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQAAAAAAgAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Verse\DamageDefAdditionalHediff.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="hediff" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Verse.BodyPartRecord" Collapsed="true">
+    <Position X="21" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAQAAAEAECAAEAREAAgAgAAwAcAAAACIAEkBIAAAEAA=</HashCode>
+      <FileName>Verse\BodyPartRecord.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Verse.BodyPartGroupDef" Collapsed="true">
+    <Position X="16.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAwAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Verse\BodyPartGroupDef.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Verse.HediffDef" Collapsed="true">
+    <Position X="16.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AGAQAAXAgBAJKBAAASgAQBAAQIeAiCAAQUAEAQAAoAA=</HashCode>
+      <FileName>Verse\HediffDef.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Verse.ThingDef" Collapsed="true">
+    <Position X="19.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>Gnd2IVhPBjvgo3349JPwOV4cOmrrTrZjMXSLKqOlfd0=</HashCode>
+      <FileName>Verse\ThingDef.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="Verse.DamageInfo" Collapsed="true">
+    <Position X="16.75" Y="5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="Verse.DamageInfo.SourceCategory" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Verse\DamageInfo.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AACEECWQBAhAgACEAAEABACAACAAAA0hAcQggoGACCo=</HashCode>
+      <FileName>Verse\DamageInfo.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="defInt" />
+      <Field Name="hitPartInt" />
+      <Field Name="weaponBodyPartGroupInt" />
+      <Field Name="weaponHediffInt" />
+      <Field Name="weaponInt" />
+      <Property Name="Def" />
+    </ShowAsAssociation>
+  </Struct>
+  <Enum Name="Verse.DamageOverlay" Collapsed="true">
+    <Position X="23.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACKAAAAAAABAAAAAAABIAAAAAACAAAAAAABAAAAQAAA=</HashCode>
+      <FileName>Verse\DamageOverlay.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>

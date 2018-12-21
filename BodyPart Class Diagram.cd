@@ -72,6 +72,11 @@
     <Members>
       <Field Name="Arm" Hidden="true" />
     </Members>
+    <AssociationLine Name="Body" Type="Verse.BodyPartDef">
+      <MemberNameLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="0.11" Y="0.06" Height="0.174" Width="1.014" />
+      </MemberNameLabel>
+    </AssociationLine>
     <TypeIdentifier>
       <HashCode>AAAAAAkAACAICJAAAAABAAAAAABAAIAAIAAAAAQAACA=</HashCode>
       <FileName>RimWorld\BodyPartDefOf.cs</FileName>

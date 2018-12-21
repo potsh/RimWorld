@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Verse.Scribe">
+    <Position X="3.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAiAACBAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Verse\Scribe.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="loader" />
+      <Field Name="mode" />
+      <Field Name="saver" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Verse.Scribe_Defs" Collapsed="true">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Verse\Scribe_Defs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Verse.Scribe_Values" Collapsed="true">
+    <Position X="6" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Verse\Scribe_Values.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Verse.ScribeLoader" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAQAAAAAAgQAAAAAAAAAQAAABAAAAAIAAAAAIIAUA=</HashCode>
+      <FileName>Verse\ScribeLoader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Verse.ScribeSaver" Collapsed="true">
+    <Position X="3.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAQAAAgEAAEAAAAAAQAABAoAAAAQQgIAAAAAEE=</HashCode>
+      <FileName>Verse\ScribeSaver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Verse.ScribeExtractor" Collapsed="true">
+    <Position X="7.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAEEAAAAAAAAAAIAAABAAAQEAAAAEBAICAAACEIAA=</HashCode>
+      <FileName>Verse\ScribeExtractor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Verse.Scribe_TargetInfo" Collapsed="true">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Verse\Scribe_TargetInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Verse.Scribe_Deep" Collapsed="true">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Verse\Scribe_Deep.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Verse.LoadSaveMode" Collapsed="true">
+    <Position X="3.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACCAAAAAAAAAAAABAAACAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Verse\LoadSaveMode.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>

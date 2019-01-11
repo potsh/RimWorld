@@ -70,13 +70,6 @@
   </Class>
   <Class Name="Verse.DamageWorker" Collapsed="true">
     <Position X="8" Y="3.5" Width="1.5" />
-    <NestedTypes>
-      <Class Name="Verse.DamageWorker.DamageResult" Collapsed="true">
-        <TypeIdentifier>
-          <NewMemberFileName>Verse\DamageWorker.cs</NewMemberFileName>
-        </TypeIdentifier>
-      </Class>
-    </NestedTypes>
     <TypeIdentifier>
       <HashCode>AAAAgAEAABAGAAAgACAAgAAAAAAAAEAAAAAAQAIAIAA=</HashCode>
       <FileName>Verse\DamageWorker.cs</FileName>
@@ -106,7 +99,7 @@
       <FileName>Verse\DamageWorker_Bite.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Verse.DamageWorker_Blunt" Collapsed="true">
+  <Class Name="Verse.DamageWorker_Blunt">
     <Position X="12.75" Y="6.25" Width="2" />
     <TypeIdentifier>
       <HashCode>AAAAAAAgAAAAAAAAAAAAAgAAAEAAAAAAABAAAAAAAAA=</HashCode>
@@ -167,13 +160,6 @@
   </Class>
   <Struct Name="Verse.DamageInfo" Collapsed="true">
     <Position X="16.75" Y="5" Width="1.5" />
-    <NestedTypes>
-      <Enum Name="Verse.DamageInfo.SourceCategory" Collapsed="true">
-        <TypeIdentifier>
-          <NewMemberFileName>Verse\DamageInfo.cs</NewMemberFileName>
-        </TypeIdentifier>
-      </Enum>
-    </NestedTypes>
     <TypeIdentifier>
       <HashCode>AACEECWQBAhAgACEAAEABACAACAAAA0hAcQggoGACCo=</HashCode>
       <FileName>Verse\DamageInfo.cs</FileName>
@@ -181,9 +167,9 @@
     <ShowAsAssociation>
       <Field Name="defInt" />
       <Field Name="hitPartInt" />
+      <Field Name="weaponInt" />
       <Field Name="weaponBodyPartGroupInt" />
       <Field Name="weaponHediffInt" />
-      <Field Name="weaponInt" />
       <Property Name="Def" />
     </ShowAsAssociation>
   </Struct>

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
-  <Class Name="Verse.Pawn">
-    <Position X="0.75" Y="3.5" Width="1.5" />
+  <Class Name="Verse.Pawn" Collapsed="true">
+    <Position X="0.5" Y="9" Width="1.5" />
     <TypeIdentifier>
       <HashCode>FvgHonCAcvSDKrDHIa8ouub1G53GxDe3QG1AW2RgdOg=</HashCode>
       <FileName>Verse\Pawn.cs</FileName>
@@ -12,7 +12,7 @@
     <Lollipop Position="0.2" Collapsed="true" />
   </Class>
   <Class Name="Verse.Pawn_HealthTracker">
-    <Position X="3.5" Y="4" Width="1.5" />
+    <Position X="3.5" Y="4.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>QQgRQAHEAAQABACAEJGEQABAMAACAAJAQgIoDiAACCQ=</HashCode>
       <FileName>Verse\Pawn_HealthTracker.cs</FileName>
@@ -25,7 +25,7 @@
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="Verse.PawnCapacitiesHandler">
-    <Position X="5.25" Y="5.5" Width="1.5" />
+    <Position X="5.75" Y="4.75" Width="1.5" />
     <Compartments>
       <Compartment Name="Methods" Collapsed="true" />
     </Compartments>
@@ -46,8 +46,8 @@
       <FileName>Verse\PawnCapacitiesHandler.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Verse.SummaryHealthHandler" Collapsed="true">
-    <Position X="7.5" Y="5.5" Width="1.5" />
+  <Class Name="Verse.SummaryHealthHandler">
+    <Position X="8" Y="4.75" Width="1.5" />
     <Compartments>
       <Compartment Name="Methods" Collapsed="true" />
     </Compartments>
@@ -57,11 +57,11 @@
     </TypeIdentifier>
   </Class>
   <Class Name="System.Object" Collapsed="true">
-    <Position X="7.5" Y="4.25" Width="1.5" />
+    <Position X="8" Y="3.5" Width="1.5" />
     <TypeIdentifier />
   </Class>
   <Class Name="Verse.HediffSet" Collapsed="true">
-    <Position X="3" Y="5.5" Width="1.5" />
+    <Position X="1.25" Y="4.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>GEgEAKQAIBCBAkCIAonBAgAIBAEQBQHkIEAAAAJCAqQ=</HashCode>
       <FileName>Verse\HediffSet.cs</FileName>
@@ -73,14 +73,14 @@
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="Verse.BodyPartRecord" Collapsed="true">
-    <Position X="9.75" Y="5.5" Width="1.5" />
+    <Position X="10.25" Y="4.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>QAQAAAEAECAAEAREAAgAgAAwAcAAAACIAEkBIAAAEAA=</HashCode>
       <FileName>Verse\BodyPartRecord.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Verse.Hediff" Collapsed="true">
-    <Position X="14.25" Y="5.5" Width="1.5" />
+    <Position X="14.75" Y="4.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAgIAQKgMQICCbLEAIGwgABYgSkBJADIAAEAGIQBUBA=</HashCode>
       <FileName>Verse\Hediff.cs</FileName>
@@ -94,28 +94,28 @@
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="Verse.HediffDef" Collapsed="true">
-    <Position X="2.75" Y="9.75" Width="1.5" />
+    <Position X="9.25" Y="9" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AGAQAAXAgBAJKBAAASgAQBAAQIeAiCAAQUAEAQAAoAA=</HashCode>
       <FileName>Verse\HediffDef.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Verse.Def" Collapsed="true">
-    <Position X="3" Y="8.25" Width="1.5" />
+    <Position X="9.5" Y="7.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAgBAABBAEKAAAAABAAgIAwIKIQBAAAACBAAA=</HashCode>
       <FileName>Verse\Def.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Verse.BodyPartGroupDef" Collapsed="true">
-    <Position X="0.5" Y="9.75" Width="1.5" />
+    <Position X="7" Y="9" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAACAAAAAwAAAAAIAAAAAAAAAAAAA=</HashCode>
       <FileName>Verse\BodyPartGroupDef.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="RimWorld.PawnCapacityDefOf">
-    <Position X="5" Y="11.75" Width="2.5" />
+    <Position X="11.5" Y="10.75" Width="2.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAJAABAAAAAAgQAAAEQAAAgCAAYAA=</HashCode>
       <FileName>RimWorld\PawnCapacityDefOf.cs</FileName>
@@ -125,7 +125,7 @@
     </ShowAsAssociation>
   </Class>
   <Class Name="Verse.PawnCapacityDef" Collapsed="true">
-    <Position X="5" Y="9.75" Width="2.25" />
+    <Position X="11.5" Y="9" Width="2.25" />
     <TypeIdentifier>
       <HashCode>AAAABBAAAIAQIAAAAgAIAAAQgCAAAIAAABAggJAAAAA=</HashCode>
       <FileName>Verse\PawnCapacityDef.cs</FileName>
@@ -135,7 +135,7 @@
     </ShowAsAssociation>
   </Class>
   <Class Name="Verse.PawnCapacityWorker" Collapsed="true">
-    <Position X="12" Y="5.5" Width="1.5" />
+    <Position X="12.5" Y="4.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAACAAAAAAAABAAAAAAAIAAAAAAAAA=</HashCode>
       <FileName>Verse\PawnCapacityWorker.cs</FileName>
